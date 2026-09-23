@@ -1,0 +1,37 @@
+# ============================================================
+# Données : tout est ignoré sous Data/, sauf train.csv et test.csv
+# (Apports N.P.K.csv, Irrigation*.csv, Parcellaire.csv, BD_Climat_Domaines.xlsx,
+#  le dictionnaire de données, le mapping site->domaine climat, et tout le
+#  contenu généré dans Data/processed/ restent locaux et ne sont pas versionnés)
+# ============================================================
+Data/*
+!Data/train.csv
+!Data/test.csv
+
+# Le fichier de soumission à la racine du projet reste versionné (submission.csv
+# n'est pas concerné par les règles ci-dessus, aucune action nécessaire).
+
+# ============================================================
+# Guide interne (documents de cadrage / notes de nettoyage internes)
+# ============================================================
+Guide/
+
+# ============================================================
+# Environnement Python / notebooks
+# ============================================================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# ============================================================
+# OS / éditeurs
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
