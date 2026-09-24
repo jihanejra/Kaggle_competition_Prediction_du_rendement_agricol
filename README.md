@@ -36,9 +36,8 @@ par le précédent, sauvegardés dans `Data/processed/`).
 ## Démarche
 
 1. **Préparation des données** — construction d'une table au grain *parcelle × mois de récolte*,
-   avec une clé de jointure composite robuste (une clé technique fournie dans les données brutes
-   s'est révélée non unique et ne doit jamais servir à agréger), correction des valeurs de saisie
-   aberrantes, et calcul de l'âge du verger par rapport à la date de récolte réelle de chaque ligne.
+   avec une clé de jointure composite, le traitement des valeurs de saisie aberrantes, et le calcul
+   de l'âge du verger à la date de récolte de chaque ligne.
 2. **Alignement temporel des intrants** — l'irrigation et les apports d'engrais sont résumés en
    cumuls glissants sur les mois *précédant* la récolte (et non le mois de la récolte lui-même),
    pour refléter le décalage biologique entre l'apport et son effet sur le fruit.
