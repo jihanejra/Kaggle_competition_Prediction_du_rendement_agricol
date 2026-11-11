@@ -1,5 +1,7 @@
 # Prévision du rendement des agrumes — Compétition Kaggle
 
+Lien de la compétition : https://www.kaggle.com/competitions/prediction-de-production-des-agrumes-2025
+
 Ce dépôt contient le travail réalisé pour une compétition Kaggle de **prévision du tonnage
 mensuel récolté par parcelle** dans des vergers d'agrumes (clémentiniers, orangers, mandariniers...)
 répartis sur plusieurs régions du Maroc (Gharb, Haouz, Souss, Tadla, Oriental).
